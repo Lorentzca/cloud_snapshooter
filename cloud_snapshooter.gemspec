@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CloudSnapshooter::VERSION
   spec.authors       = ["Kota Kunishima"]
   spec.email         = ["kunishima@feedforce.jp"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{create cloud snapshot}
+  spec.description   = %q{create cloud snapshot}
   spec.homepage      = ""
   spec.license       = "MIT"
 
