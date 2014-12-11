@@ -8,7 +8,7 @@ AWS.config(
 )
 
 module CloudSnapshooter
-  def self.aws_snapshot(volume_id, description)
+  def self.ec2_snapshot(volume_id, description)
     AWS.ec2.volumes[volume_id].create_snapshot(description)
   end
 end
