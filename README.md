@@ -1,6 +1,6 @@
 # CloudSnapshooter
 
-TODO: Write a gem description
+Create cloud snapshot.
 
 ## Installation
 
@@ -20,7 +20,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Amazon EC2
+
+Export environment variable
+
+```bash
+$ AWS_ACCESS_KEY=XXXXXXXX
+$ AWS_SECRET_KEY=YYYYYYYY
+$ AWS_REGION=ZZZZZZZZ
+```
+
+Create ec2 volume snapshot
+
+```ruby
+require 'cloud_snapshooter'
+
+CloudSnapshooter.aws_snapshot('vol-xxxxxxxx','description')
+#=> <AWS::EC2::Snapshot id:snap-yyyyyyyy>
+```
 
 ## Contributing
 
