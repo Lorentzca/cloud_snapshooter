@@ -2,6 +2,8 @@
 
 Create cloud snapshot.
 
+[![Gem Version](https://badge.fury.io/rb/cloud_snapshooter.svg)](http://badge.fury.io/rb/cloud_snapshooter)
+
 ## Installation
 
 Add this line to your application's Gemfile:
