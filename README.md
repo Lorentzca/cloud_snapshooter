@@ -27,9 +27,9 @@ Or install it yourself as:
 Export environment variable
 
 ```bash
-$ AWS_ACCESS_KEY=XXXXXXXX
-$ AWS_SECRET_KEY=YYYYYYYY
-$ AWS_REGION=ZZZZZZZZ
+$ export AWS_ACCESS_KEY=XXXXXXXX
+$ export AWS_SECRET_KEY=YYYYYYYY
+$ export AWS_REGION=ZZZZZZZZ
 ```
 
 Create ec2 volume snapshot
