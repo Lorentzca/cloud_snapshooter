@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'cloud_snapshooter'
+
+provider    = ARGV[0]
+volume_id   = ARGV[1]
+description = ARGV[2]
+
+if provider == 'ec2'
+  CloudSnapshooter::Shoot.ec2_snapshot(volume_id, description)
+else
+  puts 'Invalid provider'
+end
