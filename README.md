@@ -3,6 +3,7 @@
 Create cloud snapshot.
 
 [![Gem Version](https://badge.fury.io/rb/cloud_snapshooter.svg)](http://badge.fury.io/rb/cloud_snapshooter)
+[![wercker status](https://app.wercker.com/status/e6cde04dd13908b723df8b5145627369/s "wercker status")](https://app.wercker.com/project/bykey/e6cde04dd13908b723df8b5145627369)
 
 ## Installation
 
