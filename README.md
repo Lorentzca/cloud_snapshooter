@@ -37,7 +37,7 @@ Create ec2 volume snapshot
 ```ruby
 require 'cloud_snapshooter'
 
-CloudSnapshooter.ec2_snapshot('vol-xxxxxxxx','description')
+CloudSnapshooter::Shoot.ec2_snapshot('vol-xxxxxxxx','description')
 #=> <AWS::EC2::Snapshot id:snap-yyyyyyyy>
 ```
 
