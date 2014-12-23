@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["kunishima@feedforce.jp"]
   spec.summary       = %q{Take cloud snapshot}
   spec.description   = %q{Take cloud snapshot}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/Lorentzca/cloud_snapshooter"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
