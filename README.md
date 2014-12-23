@@ -41,6 +41,18 @@ CloudSnapshooter::Shoot.ec2_snapshot('vol-xxxxxxxx','description')
 #=> <AWS::EC2::Snapshot id:snap-yyyyyyyy>
 ```
 
+Executable commands
+
+```bash
+$ cloudsnapshooter ec2 vol-xxxxxxxx description
+```
+
+Or
+
+```bash
+$ bundle exec ruby cloudsnapshooter ec2 vol-xxxxxxxx description
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/Lorentzca/cloud_snapshooter/fork )
