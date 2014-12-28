@@ -30,8 +30,8 @@ Or install it yourself as:
 Export environment variable
 
 ```bash
-$ export AWS_ACCESS_KEY=XXXXXXXX
-$ export AWS_SECRET_KEY=YYYYYYYY
+$ export AWS_ACCESS_KEY_ID=XXXXXXXX
+$ export AWS_SECRET_ACCESS_KEY=YYYYYYYY
 $ export AWS_REGION=ZZZZZZZZ
 ```
 
